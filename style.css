@@ -1,0 +1,69 @@
+@media screen and (max-width: 600px) {
+    .container {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .container div {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .container {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .container div {
+        display: block;
+        width: 100%;
+    }
+
+    div a,p span {
+        display: none;
+    }
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    width: 80%;
+    background: blue;
+    margin:  0 10%;
+    font-size: 2.5rem;
+}
+
+div div {
+    display: inline-block;
+}
+
+.first {
+    width: 40%;
+    background: yellow;
+    border:5px dashed orange;
+}
+
+.mid {
+    width: 20%;
+    background: indianred;
+    border:2px solid white;
+}
+
+.last {
+    width: 20%;
+    background: grey;
+    border:5px dotted greenyellow;
+}
+
